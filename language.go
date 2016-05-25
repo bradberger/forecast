@@ -1,0 +1,35 @@
+package forecast
+
+const (
+    ARABIC          Language = "ar"
+    BELARUSIAN      Language = "be"
+    CZECH           Language = "cs"
+    BOSNIAN         Language = "bs"
+    GERMAN          Language = "de"
+    GREEK           Language = "el"
+    ENGLISH         Language = "en"
+    SPANISH         Language = "es"
+    FRENCH          Language = "fr"
+    CROATIAN        Language = "hr"
+    HUNGARIAN       Language = "hu"
+    INDONESIAN      Language = "id"
+    ITALIAN         Language = "it"
+    ICELANDIC       Language = "is"
+    CORNISH         Language = "kw"
+    NORWEGIAN       Language = "nb"
+    DUTCH           Language = "nl"
+    POLISH          Language = "pl"
+    PORTUGESE       Language = "pt"
+    RUSSIAN         Language = "ru"
+    SLOVAK          Language = "sk"
+    SERBIAN         Language = "sr"
+    SWEDISH         Language = "sv"
+    TETUM           Language = "tet"
+    TURKISH         Language = "tr"
+    UKRANIAN        Language = "uk"
+    PIGLATIN        Language = "x-pig-latin"
+    CHINESESIMPLIED Language = "zh"
+    CHINESE         Language = "zh-tw"
+)
+
+type Language string
